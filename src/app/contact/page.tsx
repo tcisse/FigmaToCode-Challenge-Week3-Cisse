@@ -12,7 +12,7 @@ function SubmitButton() {
 }
 export default function Contact() {
   return (
-    <div className="lg::max-w-7xl md:max-w-4xl max-w-sm mx-auto">
+    <div className="lg:max-w-7xl md:max-w-4xl max-w-sm mx-auto">
       <div className="flex md:flex-row items-center justify-between flex-col lg:mx-0 md:mx-6">
         <div className="flex flex-col space-y-10">
           <p className="text-xl font-bold">CONTACT US</p>
