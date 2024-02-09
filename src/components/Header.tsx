@@ -58,8 +58,8 @@ export function Header() {
         </div>
       </header>
 
-      <section className="md:hidden block">
-        <header className="flex flex-col items-center p-5 bg-white">
+      <section className="lg:hidden block">
+        <header className="flex flex-col items-center p-4 bg-white">
           <div className="flex items-center justify-between w-full mb-8">
             <h1 className="text-2xl font-bold">Bandage</h1>
             <div className="space-x-4">
@@ -81,7 +81,7 @@ export function Header() {
               </button>
               <button
                 aria-label="Menu"
-                className="md:hidden"
+                className="lg:hidden"
                 onClick={toggleMenu}
               >
                 <Image
@@ -102,7 +102,7 @@ export function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/product">Product</Link>
+                  <Link href="/teams">Teams</Link>
                 </li>
                 <li>
                   <Link className="text-lg" href="/pricing">

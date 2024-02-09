@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="">
-      <div className="md:max-w-7xl max-w-sm mx-auto">
-        <div className="flex md:flex-row items-center justify-between flex-col">
+      <div className="lg:max-w-7xl md:max-w-4xl max-w-sm mx-auto">
+        <div className="flex md:flex-row items-center justify-between flex-col lg:mx-0 md:mx-6">
           <div className="flex flex-col space-y-10">
             <p className="text-xl font-bold">ABOUT COMPANY</p>
             <h1 className="md:text-7xl font-bold">ABOUT US</h1>
@@ -18,24 +18,24 @@ export default function Home() {
               Get Quote Now
             </button>
           </div>
-          <img src="/images/hero_image.svg" alt="" />
+          <img src="/images/hero_image.svg" className="lg:w-[600px] w-64" alt="" />
         </div>
-        <section className="flex md:flex-row flex-col md:space-x-10 items-center py-10">
-          <div>
+        <section className="flex md:flex-row flex-col md:space-x-10 items-center py-10 lg:mx-0 md:mx-6">
+          <div className="md:mx-0 mx-4 md:mb-0 mb-4">
             <span className="text-red">Problems trying</span>
             <p className="font-bold text-xl w-3/4">
               Met minim Mollie non desert Alamo est sit cliquey dolor do met
               sent.
             </p>
           </div>
-          <div>
+          <div className="md:mx-0 mx-4">
             <p className="text-secondary">
               Problems trying to resolve the conflict between the two major
               realms of Classical physics: Newtonian mechanics{" "}
             </p>
           </div>
         </section>
-        <section className="py-20">
+        <section className="py-10">
           <div className="flex md:flex-row flex-col justify-center md:space-x-10 md:space-y-0 space-y-10">
             <div className="flex flex-col justify-center items-center">
               <p className="text-7xl font-bold">15K</p>
@@ -57,7 +57,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-20">
+        <section className="py-20 lg:mx-0 md:mx-6 mx-4">
           <div className="relative flex justify-center">
             <div className="bg-primary rounded-full">
               <img
@@ -150,7 +150,7 @@ export default function Home() {
       </section>
       <section className="flex justify-between">
         <div className="bg-primary-10 w-full flex items-center justify-center md:py-0 py-10">
-          <div className="mx-auto flex flex-col space-y-10 top-0 md:justify-normal justify-center items-center md:items-start md:max-w-4xl max-w-xs">
+          <div className="mx-auto flex flex-col space-y-10 top-0 md:justify-normal justify-center items-center md:items-start md:max-w-4xl max-w-xs p-5">
             <h3 className="font-bold text-white">WORK WITH US</h3>
             <p className="font-bold text-4xl text-white md:text-start text-center">
               Now Let’s grow Yours

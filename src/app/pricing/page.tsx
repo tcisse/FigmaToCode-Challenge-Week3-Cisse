@@ -74,7 +74,7 @@ export default function Pricing() {
         <div className="mb-10">
           <ToggleSwitch />
         </div>
-        <section className="flex md:flex-row flex-col items-center justify-center md:space-y-0 space-y-10 mb-20">
+        <section className="flex lg:flex-row flex-col items-center justify-center lg:space-y-0 space-y-10 mb-20">
           <div className="max-w-xs bg-white rounded-md p-8 border-2 border-primary">
             <h1 className="font-bold text-3xl text-center mb-10">FREE</h1>
             <p className="text-center text-xl mb-10">
@@ -256,7 +256,7 @@ export default function Pricing() {
           <p className="text-center mb-10 text-secondary">
             Trusted By Over 4000 Big Companies
           </p>
-          <div className="flex md:flex-row flex-col items-center justify-center md:space-x-5 md:space-y-0 space-y-7">
+          <div className="flex lg:flex-row flex-col items-center justify-center md:space-x-5 lg:space-y-0 space-y-7">
             <img src="/logo/hooli_logo.svg" alt="" />
             <img src="/logo/lya_logo.svg" alt="" />
             <img src="/logo/logo.svg" alt="" />

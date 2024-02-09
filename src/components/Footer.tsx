@@ -4,8 +4,8 @@ import Image from "next/image";
 export function Footer() {
   return (
     <div>
-      <footer className="md:max-w-7xl max-w-xs mx-auto">
-        <div className="flex md:flex-row flex-col justify-between items-center py-5">
+      <footer className="lg:max-w-7xl md:max-w-4xl max-w-xs mx-auto">
+        <div className="flex md:flex-row flex-col justify-between items-center py-5 lg:mx-0 md:mx-6">
           <div className="font-bold text-3xl mb-10">Bandage</div>
           <div className="flex items-center space-x-7">
             <Image src="/icons/facebook.svg" width={24} height={24} alt="" />
@@ -14,7 +14,7 @@ export function Footer() {
           </div>
         </div>
         <hr className="py-5" />
-        <div className="flex md:flex-row flex-col md:space-y-0 space-y-10 justify-between">
+        <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-10 lg:mx-0 md:mx-6">
           <div>
             <h2 className="font-bold mb-5">Company Info</h2>
             <ul className="flex flex-col space-y-4">
@@ -70,7 +70,7 @@ export function Footer() {
         </div>
       </footer>
       <div className="bg-secondary-10 py-6 mt-5">
-        <p className="md:max-w-7xl max-w-xs mx-auto font-semibold text-secondary">
+        <p className="md:max-w-7xl max-w-xs mx-auto font-semibold text-secondary lg:mx-0 md:mx-6">
           Made With Love By Finland All Right Reserved
         </p>
       </div>

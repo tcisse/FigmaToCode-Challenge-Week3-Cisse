@@ -12,8 +12,8 @@ function SubmitButton() {
 }
 export default function Contact() {
   return (
-    <div className="md:max-w-7xl max-w-sm mx-auto">
-      <div className="flex md:flex-row items-center justify-between flex-col">
+    <div className="lg::max-w-7xl md:max-w-4xl max-w-sm mx-auto">
+      <div className="flex md:flex-row items-center justify-between flex-col lg:mx-0 md:mx-6">
         <div className="flex flex-col space-y-10">
           <p className="text-xl font-bold">CONTACT US</p>
           <h1 className="md:text-7xl font-semibold">Get in touch today!</h1>
@@ -31,7 +31,7 @@ export default function Contact() {
             <Image src="/icons/twitter.svg" width={24} height={24} alt="" />
           </div>
         </div>
-        <img src="/images/contact_hero.svg" alt="" />
+        <img src="/images/contact_hero.svg" className="lg:w-96 w-64" alt="" />
       </div>
       <section className="py-10">
         <div className="text-center mb-20">
@@ -40,7 +40,7 @@ export default function Contact() {
             We help small businesses <br /> with big ideas
           </h1>
         </div>
-        <div className="flex md:flex-row flex-col justify-center items-center md:space-x-10 md:space-y-0 space-y-10">
+        <div className="flex lg:flex-row flex-col justify-center items-center md:space-x-10 lg:space-y-0 md:space-y-10 space-y-10">
           <div className="flex flex-col justify-center items-center">
             <Image src="/icons/phone_icon.svg" width={80} height={80} alt="" />
             <h3 className="text-xl font-bold mb-2 pt-5">
