@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <div>
       <footer className="md:max-w-7xl max-w-xs mx-auto">
-        <div className="flex md:flex-row flex-col justify-between py-5">
+        <div className="flex md:flex-row flex-col justify-between items-center py-5">
           <div className="font-bold text-3xl mb-10">Bandage</div>
           <div className="flex items-center space-x-7">
             <Image src="/icons/facebook.svg" width={24} height={24} alt="" />
@@ -69,7 +69,7 @@ export function Footer() {
           </div>
         </div>
       </footer>
-      <div className="bg-secondary-10 py-6">
+      <div className="bg-secondary-10 py-6 mt-5">
         <p className="md:max-w-7xl max-w-xs mx-auto font-semibold text-secondary">
           Made With Love By Finland All Right Reserved
         </p>

@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import { PartnersSection } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -137,20 +138,15 @@ export default function Home() {
       </div>
       <section className="py-20 bg-secondary-10">
         <div className="flex flex-col justify-center items-center text-center">
-          <h2 className="text-3xl font-bold mb-4 md:mx-0 mx-10">Big Compagnies Are Here</h2>
+          <h2 className="text-3xl font-bold mb-4 md:mx-0 mx-10">
+            Big Compagnies Are Here
+          </h2>
           <p className="md:w-1/3 text-secondary mb-10 md:mx-0 mx-10">
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics.
           </p>
         </div>
-        <div className="flex md:flex-row flex-col justify-center md:space-x-9 md:space-y-0 space-y-7">
-          <img src="/logo/hooli_logo.svg" alt="" />
-          <img src="/logo/lya_logo.svg" alt="" />
-          <img src="/logo/logo.svg" alt="" />
-          <img src="/logo/stripe.svg" alt="" />
-          <img src="/logo/aws_logo.svg" alt="" />
-          <img src="/logo/redit_logo.svg" alt="" />
-        </div>
+        <PartnersSection />
       </section>
       <section className="flex justify-between">
         <div className="bg-primary-10 w-full flex items-center justify-center md:py-0 py-10">
@@ -163,7 +159,9 @@ export default function Home() {
               The gradual accumulation of information about atomic and
               small-scale behavior during the first quarter of the 20th{" "}
             </p>
-            <button className="border border-white text-white py-4 w-44 rounded-lg">Button</button>
+            <button className="border border-white text-white py-4 w-44 rounded-lg">
+              Button
+            </button>
           </div>
         </div>
         <img src="/images/cta_image.svg" className="hidden lg:block" alt="" />

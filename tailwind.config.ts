@@ -13,7 +13,9 @@ const config: Config = {
         secondary: "#737373",
         red: "#E74040",
         "primary-10": "#2A7CC7",
-        "secondary-10": "#EDEDED"
+        "secondary-10": "#EDEDED",
+        "success": "#2DC071",
+        "black": "#252B42"
       },
     },
   },
