@@ -70,7 +70,7 @@ export function Footer() {
         </div>
       </footer>
       <div className="bg-secondary-10 py-6 mt-5">
-        <p className="md:max-w-7xl max-w-xs mx-auto font-semibold text-secondary lg:mx-0 md:mx-6">
+        <p className="md:max-w-7xl max-w-xs mx-auto text-center font-semibold text-secondary lg:mx-0 md:mx-6">
           Made With Love By Finland All Right Reserved
         </p>
       </div>
